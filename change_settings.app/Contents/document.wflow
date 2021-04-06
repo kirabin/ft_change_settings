@@ -133,7 +133,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:259.000000</string>
+				<string>394.750000:259.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -228,7 +228,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:359.000000</string>
+				<string>394.750000:359.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Change System Appearance.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -378,7 +378,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:548.000000</string>
+				<string>394.750000:548.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Computer Volume.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -563,7 +563,7 @@ ln -s $GOINFRE/Containers/com.docker.docker ~/Library/Containers/com.docker.dock
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:878.000000</string>
+				<string>394.750000:730.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -622,12 +622,13 @@ ln -s $GOINFRE/Containers/com.docker.docker ~/Library/Containers/com.docker.dock
 					<string># Clear space
 
 rm -rf ~/Library/Caches
-# rm -rf ~/Library/Application\ Support/Code/Cache
-# rm -rf ~/Library/Application\ Support/Code/CachedData
+rm -rf ~/Library/Application\ Support/Code/Cache
+rm -rf ~/Library/Application\ Support/Code/CachedData
 # rm -rf ~/Library/Application\ Support/Code/CachedExtension
 # rm -rf ~/Library/Application\ Support/Code/CachedExtensions
 # rm -rf ~/Library/Application\ Support/Code/CachedExtensionVSIXs
-# rm -rf ~/Library/Application\ Support/Code/Code\ Cache
+rm -rf ~/Library/Application\ Support/Code/Code\ Cache
+rm -rf /Library/Application Support/Code/User/workspaceStorage
 rm -rf ~/Library/Application\ Support/Slack/Cache
 rm -rf ~/Library/Application\ Support/Slack/Code\ Cache
 rm -rf ~/Library/Application\ Support/Slack/Service\ Worker/CacheStorage
@@ -741,12 +742,10 @@ rm -rf ~/Library/Application\ Support/Spotify/PersistentCache</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:1219.000000</string>
+				<string>394.750000:1017.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -873,12 +872,10 @@ rm -rf ~/Library/Application\ Support/Spotify/PersistentCache</string>
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:1408.000000</string>
+				<string>394.750000:1206.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -888,40 +885,40 @@ rm -rf ~/Library/Application\ Support/Spotify/PersistentCache</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>08816F8E-7805-4522-A9FD-C5175313225B</key>
-		<dict>
-			<key>from</key>
-			<string>A616D512-AB82-486F-9FD5-A24E58E978C8 - A616D512-AB82-486F-9FD5-A24E58E978C8</string>
-			<key>to</key>
-			<string>9BBBA998-13C1-4BED-B25D-B3B54F121486 - 9BBBA998-13C1-4BED-B25D-B3B54F121486</string>
-		</dict>
-		<key>0E94378F-2D57-43DC-AD57-7A31FE491E95</key>
-		<dict>
-			<key>from</key>
-			<string>B99CDD7F-E25D-41A6-9555-BDD6BB45034A - B99CDD7F-E25D-41A6-9555-BDD6BB45034A</string>
-			<key>to</key>
-			<string>0E29EBC1-B6A8-4B0F-8337-2FC015C0A434 - 0E29EBC1-B6A8-4B0F-8337-2FC015C0A434</string>
-		</dict>
-		<key>11784C29-9D34-485F-94E8-4B58F6A31E35</key>
-		<dict>
-			<key>from</key>
-			<string>8E5919C0-BB63-48E4-86D2-059658729FB7 - 8E5919C0-BB63-48E4-86D2-059658729FB7</string>
-			<key>to</key>
-			<string>B99CDD7F-E25D-41A6-9555-BDD6BB45034A - B99CDD7F-E25D-41A6-9555-BDD6BB45034A</string>
-		</dict>
-		<key>6212422E-1A5A-498C-95B8-BD97D7BD8347</key>
+		<key>39DC8CC6-2BDE-41CD-9E96-39FA729F4FE0</key>
 		<dict>
 			<key>from</key>
 			<string>9BBBA998-13C1-4BED-B25D-B3B54F121486 - 9BBBA998-13C1-4BED-B25D-B3B54F121486</string>
 			<key>to</key>
 			<string>5BE7D6FD-9B1E-41E8-926C-527D2021B07E - 5BE7D6FD-9B1E-41E8-926C-527D2021B07E</string>
 		</dict>
-		<key>7F1F05B6-4972-42EB-B760-6593A3F78F64</key>
+		<key>B27364AA-E121-4A40-9FA8-9BA94BE0915D</key>
 		<dict>
 			<key>from</key>
 			<string>0E29EBC1-B6A8-4B0F-8337-2FC015C0A434 - 0E29EBC1-B6A8-4B0F-8337-2FC015C0A434</string>
 			<key>to</key>
 			<string>A616D512-AB82-486F-9FD5-A24E58E978C8 - A616D512-AB82-486F-9FD5-A24E58E978C8</string>
+		</dict>
+		<key>D4BD9B7A-59AC-4A32-B0EC-42C26252B2FA</key>
+		<dict>
+			<key>from</key>
+			<string>B99CDD7F-E25D-41A6-9555-BDD6BB45034A - B99CDD7F-E25D-41A6-9555-BDD6BB45034A</string>
+			<key>to</key>
+			<string>0E29EBC1-B6A8-4B0F-8337-2FC015C0A434 - 0E29EBC1-B6A8-4B0F-8337-2FC015C0A434</string>
+		</dict>
+		<key>EC913DD7-AC97-4FF7-879B-708CFB55F9C4</key>
+		<dict>
+			<key>from</key>
+			<string>A616D512-AB82-486F-9FD5-A24E58E978C8 - A616D512-AB82-486F-9FD5-A24E58E978C8</string>
+			<key>to</key>
+			<string>9BBBA998-13C1-4BED-B25D-B3B54F121486 - 9BBBA998-13C1-4BED-B25D-B3B54F121486</string>
+		</dict>
+		<key>FE0B85CD-FE0F-4A1E-91C2-82791188B3C3</key>
+		<dict>
+			<key>from</key>
+			<string>8E5919C0-BB63-48E4-86D2-059658729FB7 - 8E5919C0-BB63-48E4-86D2-059658729FB7</string>
+			<key>to</key>
+			<string>B99CDD7F-E25D-41A6-9555-BDD6BB45034A - B99CDD7F-E25D-41A6-9555-BDD6BB45034A</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
